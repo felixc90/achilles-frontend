@@ -1,7 +1,9 @@
-import * as React from 'react';
+// import * as React from 'react';
 // import ReactDOM from 'react-dom';
-import Button from '@mui/material/Button';
+import {Navbar} from './components/Navbar'
 
-export default function App() {
-  return <Button variant="contained">Hello World</Button>;
+function App() {
+  return <Navbar/>;
 }
+
+export default App;
