@@ -2,9 +2,9 @@ import { AppBar, Toolbar, Typography } from "@mui/material"
 
 export const Navbar = () => {
     return (
-        <AppBar>
+        <AppBar sx={{ borderBottom: 1 }}>
             <Toolbar>
-                <Typography>
+                <Typography >
                     Achilles
                 </Typography>
             </Toolbar>
