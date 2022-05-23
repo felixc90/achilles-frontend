@@ -4,23 +4,23 @@ const theme = createTheme({
     spacing: 8,
     palette: {
       primary: {
-        main: '#B24A3B',
+        main: '#0D698B',
       },
       background: {
-        default: "#222222"
+        default: "#050533"
       },
       text: {
-          primary: '#FFFFFF'
+          primary: '#F2F1E8'
       }
     },
-    typography: {
-        h1: {
-            fontFamily: 'Archivo Black'
-        },
-        subtitle1: {
-            fontFamily: 'Comfortaa'
-        }
-    }
+    // typography: {
+    //     h1: {
+    //         fontFamily: 'Archivo Black'
+    //     },
+    //     subtitle1: {
+    //         fontFamily: 'Comfortaa'
+    //     }
+    // }
   });
 
 export default theme;
